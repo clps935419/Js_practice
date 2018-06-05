@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 300px;
+    background-color:rgba(66,66,66,1); 
+}
+.header h1{
+    float: left;
+    margin: 92px 91px 97px 173px;
+}
+.header h1 a{
+    display: block;
+    background-image: url(../img/BMICLogo.png);
+    text-indent: 101%;
+    height: 117px;
+    width: 117px;
+    overflow: hidden;
+	white-space: nowrap;
+}
+
+
+.textbox{
+    float: left;
+    color: rgba(255,211,102,1);
+    margin-top:92px;
+    
+}
+.textbox .box{
+    border:rgba(255,211,102,1) 3px solid; 
+    width: 250px;
+}
+.textbox  p{
+    margin-bottom:3px; 
+}
+.but{
+    width:120px;
+    height:120px;
+    border-radius:99em;
+    background-color:rgba(255,211,102,1);
+    border: black 1px solid;
+    font-size: 24px;
+    float: left;
+    margin: 92px 214px 88px 53px;
+}
+.clearf{
+    clear:both;
+}
+.content{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 30px;
+    background-color: rgba(245,245,245, 0.8);
+    height: 500px;
+}
+.list{ 
+    
+    
+   
+}
+.addBlue{
+    border-left: 5px solid blue;
+     WIDTH: 700px;
+    height: 50px;
+    margin: 20px auto;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: left;
+    box-shadow: 1px 0px 1px black;
+    background-color: white;
+}
+.addRed{
+    border-left: 5px solid red;
+    WIDTH: 700px;
+    height: 50px;
+    margin: 20px auto;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: left;
+    box-shadow: 1px 0px 1px black;
+    background-color: white;
+}
+.addOrange{
+    border-left: 5px solid orange;
+    WIDTH: 700px;
+    height: 50px;
+    margin: 20px auto;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: left;
+    box-shadow: 1px 0px 1px black;
+    background-color: white;
+}
+.addGreen{
+    border-left: 5px solid green;
+    WIDTH: 700px;
+    height: 50px;
+    margin: 20px auto;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: left;
+    box-shadow: 1px 0px 1px black;
+    background-color: white;
+}
+.footer{
+    background:  rgba(255,211,102,1);
+    height: 110px;
+    text-align: center;
+}
+.footer a img{
+    margin-top: 30px;
+}
